@@ -3,5 +3,8 @@ name = "tl-excel-bookkeeping"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.14"
+dependencies = [
+    "intuit-oauth>=1.2.6",
+    "pyxll>=5.12.3",
+]
